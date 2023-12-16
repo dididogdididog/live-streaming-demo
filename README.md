@@ -7,10 +7,10 @@
 
 ## Start the demo:
 * (bring up the app) in the folder (ctr left click on folder through finder) open the terminal run node app.js 
-* You should see this message - server started on port localhost:3000
-* (open the app) in the browser add localhost:3000
+* You should see this message - server started on port localhost:4000
+* (open the app) in the browser add localhost:4000
 * (connect) press connect you should see the connection ready 
-* (stream) press the start button to start streaming
+* (stream) run client.py to send message to the server.
 
 ## App:
 ![app](./app.png)
