@@ -1,4 +1,3 @@
-const cors = require('cors')
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
@@ -7,7 +6,6 @@ const port = 4000;
 
 const app = express();
 
-app.use(cors());
 app.use(express.json())
 // app.post('/api', function (req, res) {
 //   console.log(req.body.text);
