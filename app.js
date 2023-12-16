@@ -7,13 +7,9 @@ const port = 4000;
 const app = express();
 
 app.use(express.json())
-// app.post('/api', function (req, res) {
-//   console.log(req.body.text);
-//   res.send('POST request to the homepage');
-// });
+
 app.use('/', express.static(__dirname));
 
-//app.listen(port, () => console.log(`Server started on port localhost:${port}`));
 
 const server = http.createServer(app);
 const io = new Server(server);
