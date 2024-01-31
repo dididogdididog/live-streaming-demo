@@ -1,5 +1,8 @@
 # Streaming Live Demo by D-ID
 
+## New Feature:
+Add socket.io to send message through python client
+
 ## Initial Setup:
 * (install express) open a terminal in the folder and run  - npm install express
 * (add your api key) edit the `api.json` inside the uncompressed folder and replace the emoji with your key
@@ -11,6 +14,3 @@
 * (open the app) in the browser add localhost:4000
 * (connect) press connect you should see the connection ready 
 * (stream) run client.py to send message to the server.
-
-## App:
-![app](./app.png)
