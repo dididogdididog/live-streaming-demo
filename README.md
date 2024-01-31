@@ -1,7 +1,7 @@
 # Streaming Live Demo by D-ID
 
 ## New Feature:
-Add socket.io to send message through python client
+Add socket.io to send message from python client
 
 ## Initial Setup:
 * (install express) open a terminal in the folder and run  - npm install express
