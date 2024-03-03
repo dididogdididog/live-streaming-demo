@@ -13,6 +13,4 @@ Add socket.io to send message from python client
 * You should see this message - server started on port localhost:4000
 * (open the app) in the browser add localhost:4000
 * (connect) press connect you should see the connection ready 
-* (stream) press the start button to start streaming
-
 * (stream) run client.py to send message to the server.
