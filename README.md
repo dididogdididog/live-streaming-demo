@@ -12,5 +12,3 @@
 * (connect) press connect you should see the connection ready 
 * (stream) press the start button to start streaming
 
-## App:
-![app](./app.png)

@@ -44,7 +44,7 @@ connectButton.onclick = async () => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      source_url: 'https://raw.githubusercontent.com/Nathan110811/learn/main/img1.jpg',
+      source_url: 'https://raw.githubusercontent.com/Nathan110811/learn/main/yu1.jpg',
       config: { stitch: true },
     }),
   });
