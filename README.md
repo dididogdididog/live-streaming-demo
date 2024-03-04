@@ -4,8 +4,15 @@
 Add socket.io to send message from python client
 
 ## Initial Setup:
-* (install express) open a terminal in the folder and run  - npm install express
+* (install necessary packages) open a terminal in the folder and run  - npm install
 * (add your api key) edit the `api.json` inside the uncompressed folder and replace the emoji with your key
+
+```json
+{
+  "key":"Add_Your_API_KEY_HERE",
+  "url": "https://api.d-id.com"
+}
+```
 
 
 ## Start the demo:
