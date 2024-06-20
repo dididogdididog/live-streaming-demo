@@ -1,5 +1,5 @@
 'use strict';
-import DID_API from './api.json' assert { type: 'json' };
+import DID_API from './api.json' with { type: "json" };
 
 const socket = io()
 
